@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": ".",
-      "program": "D:\\Desktop\\Algorithm\\build\\exe\\${fileBasenameNoExtension}.exe",
+      "program": "D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\${fileBasenameNoExtension}.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

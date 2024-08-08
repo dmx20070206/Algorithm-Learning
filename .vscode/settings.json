@@ -108,6 +108,6 @@
     "typeinfo": "cpp"
   },
   "code-runner.executorMap": {
-    "cpp": "cd $dir && g++ $fileName -o D:\\Desktop\\Algorithm\\build\\exe\\$fileNameWithoutExt && D:\\Desktop\\Algorithm\\build\\exe\\$fileNameWithoutExt"
+    "cpp": "cd $dir && g++ $fileName -o D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt && D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt"
   }
 }

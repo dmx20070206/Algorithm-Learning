@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "D:\\Desktop\\Algorithm\\build\\exe\\${fileBasenameNoExtension}.exe"
+                "D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "C:\\msys64\\ucrt64\\bin"
