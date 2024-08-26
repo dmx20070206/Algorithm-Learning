@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int dp[1001];
+int dp[10001];
 int main()
 {
     int N, M;
