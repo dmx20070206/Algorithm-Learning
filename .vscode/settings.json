@@ -105,9 +105,11 @@
     "sstream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "cstring": "cpp"
   },
   "code-runner.executorMap": {
     "cpp": "cd $dir && g++ $fileName -o D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt && D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt"
-  }
+  },
+  "C_Cpp.errorSquiggles": "enabled"
 }
