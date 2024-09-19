@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Desktop/MyGit/Algorithm-Learning/算法 基础/动态规划/区间DP",
-      "program": "d:/Desktop/MyGit/Algorithm-Learning/算法 基础/动态规划/区间DP/build/Debug/outDebug",
+      "cwd": "d:/Desktop/MyGit/Algorithm-Learning/算法 基础/搜索/深度优先算法",
+      "program": "d:/Desktop/MyGit/Algorithm-Learning/算法 基础/搜索/深度优先算法/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

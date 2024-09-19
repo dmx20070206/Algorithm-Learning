@@ -106,7 +106,8 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp",
-    "cstring": "cpp"
+    "cstring": "cpp",
+    "queue": "cpp"
   },
   "code-runner.executorMap": {
     "cpp": "cd $dir && g++ $fileName -o D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt && D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt"
