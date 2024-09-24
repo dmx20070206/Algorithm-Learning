@@ -8,6 +8,7 @@ int sudoku[9][9];
 bitset<9> hang[9];
 bitset<9> lie[9];
 bitset<9> gong[9];
+bitset<9> selects[9][9];
 
 int change(int i, int j)
 {
@@ -22,6 +23,7 @@ bool dfs(int curNum)
         return true;
     }
 
+    // 找到能填数字最少的格子
     int minSel = 9;
     int minI = 0;
     int minJ = 0;
@@ -33,16 +35,15 @@ bool dfs(int curNum)
         {
             if (sudoku[i][j] != 0)
                 continue;
-            bitset<9> select;
-            select = hang[i] & lie[j] & gong[change(i, j)];
-            if (select.count() == 0)
+            selects[i][j] = hang[i] & lie[j] & gong[change(i, j)];
+            if (selects[i][j].count() == 0)
             {
                 return false;
             }
-            if (minSel >= (int)select.count())
+            if (minSel >= (int)selects[i][j].count())
             {
-                minSel = select.count();
-                minSelect = select;
+                minSel = selects[i][j].count();
+                minSelect = selects[i][j];
                 minI = i;
                 minJ = j;
             }
@@ -50,7 +51,7 @@ bool dfs(int curNum)
             {
                 minI = i;
                 minJ = j;
-                minSelect = select;
+                minSelect = selects[i][j];
                 flag = true;
                 break;
             }
@@ -59,6 +60,7 @@ bool dfs(int curNum)
             break;
     }
 
+    // 遍历最少的格子能填的数
     int minG = change(minI, minJ);
     for (int i = 0; i < 9; i++)
     {
