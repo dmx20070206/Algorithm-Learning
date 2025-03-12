@@ -110,7 +110,7 @@
     "queue": "cpp"
   },
   "code-runner.executorMap": {
-    "cpp": "cd $dir && g++ $fileName -o D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt && D:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt"
+    "cpp": "cd $dir && g++ $fileName -o F:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt && F:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
