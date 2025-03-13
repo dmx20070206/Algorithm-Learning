@@ -57,6 +57,8 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
+    "*.md": "markdown",
+    "*.csv": "csv (whitespace)",
     "ostream": "cpp",
     "vector": "cpp",
     "bitset": "cpp",
@@ -107,7 +109,8 @@
     "streambuf": "cpp",
     "typeinfo": "cpp",
     "cstring": "cpp",
-    "queue": "cpp"
+    "queue": "cpp",
+    "span": "cpp"
   },
   "code-runner.executorMap": {
     "cpp": "cd $dir && g++ $fileName -o F:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt && F:\\Desktop\\MyGit\\Algorithm-Learning\\build\\exe\\$fileNameWithoutExt"
